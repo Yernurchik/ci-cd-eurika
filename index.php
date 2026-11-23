@@ -9,3 +9,4 @@ $products = [
 foreach ($products as $product) {
     echo $product["name"] . " - " . $product["price"] . " KZT\n";
 }
+this is broken code
