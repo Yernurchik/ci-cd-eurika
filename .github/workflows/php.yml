@@ -21,4 +21,10 @@ jobs:
           php-version: '8.3'
 
       - name: Check PHP syntax
-        run: php -l index.php
+        run: |
+          php -l index.php
+          php -l functions.php
+          php -l tests.php
+
+      - name: Run tests
+        run: php tests.php

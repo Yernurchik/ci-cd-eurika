@@ -1,5 +1,6 @@
 <?php
 
+require "functions.php";
 $products = [
     ["name" => "iPhone 17", "price" => 500000],
     ["name" => "Samsung S25", "price" => 350000],
